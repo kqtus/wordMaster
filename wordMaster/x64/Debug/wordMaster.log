@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  wordMaster.cpp
+i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
+  TrieNode.cpp
+  Trie.cpp
+i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
+  GuidGenerator.cpp
+i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
+  Dictionary.cpp
+i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
+  Generating Code...
+  wordMaster.vcxproj -> I:\Developer\wordMaster-git\wordMaster\x64\Debug\wordMaster.exe
+  wordMaster.vcxproj -> I:\Developer\wordMaster-git\wordMaster\x64\Debug\wordMaster.pdb (Full PDB)
