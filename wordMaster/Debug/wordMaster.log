@@ -1,7 +1,1 @@
-﻿  wordMaster.cpp
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
-  Dictionary.cpp
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
-  Generating Code...
-  wordMaster.vcxproj -> C:\Users\elmar\documents\visual studio 2015\Projects\wordMaster\Debug\wordMaster.exe
-  wordMaster.vcxproj -> C:\Users\elmar\documents\visual studio 2015\Projects\wordMaster\Debug\wordMaster.pdb (Full PDB)
+﻿

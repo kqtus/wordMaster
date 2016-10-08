@@ -2,16 +2,29 @@ c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug
 c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\vc140.pdb
 c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\vc140.idb
 c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\stdafx.obj
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.obj
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\trienode.obj
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\trie.obj
 c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\guidgenerator.obj
+c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\trie.obj
+c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\trienode.obj
+c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.obj
+c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\dictionary.obj
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.pch
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\vc140.pdb
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\vc140.idb
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\stdafx.obj
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\dictionary.obj
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\guidgenerator.obj
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\trie.obj
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\trienode.obj
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.obj
 c:\users\elmar\documents\visual studio 2015\projects\wordmaster\debug\wordmaster.ilk
 c:\users\elmar\documents\visual studio 2015\projects\wordmaster\debug\wordmaster.exe
 c:\users\elmar\documents\visual studio 2015\projects\wordmaster\debug\wordmaster.pdb
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.tlog\cl.command.1.tlog
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.tlog\cl.read.1.tlog
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.tlog\cl.write.1.tlog
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.tlog\link.command.1.tlog
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.tlog\link.read.1.tlog
-c:\users\elmar\documents\visual studio 2015\projects\wordmaster\wordmaster\debug\wordmaster.tlog\link.write.1.tlog
+i:\developer\wordmaster-git\wordmaster\debug\wordmaster.ilk
+i:\developer\wordmaster-git\wordmaster\debug\wordmaster.exe
+i:\developer\wordmaster-git\wordmaster\debug\wordmaster.pdb
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.tlog\cl.command.1.tlog
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.tlog\cl.read.1.tlog
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.tlog\cl.write.1.tlog
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.tlog\link.command.1.tlog
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.tlog\link.read.1.tlog
+i:\developer\wordmaster-git\wordmaster\wordmaster\debug\wordmaster.tlog\link.write.1.tlog
