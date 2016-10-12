@@ -17,6 +17,10 @@ int main()
 	std::string translation2 = dictionary->GetTranslation("water");
 	std::cout << "water = " << translation2 << std::endl;
 	std::string trans3 = dictionary->GetTranslation("domb");
+	dictionary->RemoveWord("domb");
+	dictionary->RemoveWord("water");
+	std::string translation3 = dictionary->GetTranslation("water");
+
 	std::cin.get();
     return 0;
 }

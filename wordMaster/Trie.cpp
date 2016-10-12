@@ -20,6 +20,7 @@ wordMaster::TrieNode* wordMaster::Trie::AddWord(std::string word, unsigned int i
 		if ((*LastNode)[word[i]] != nullptr)
 		{
 			LastNode = (*LastNode)[word[i]];
+			LastNode->IncThickness();
 		}
 		else
 		{
@@ -29,6 +30,7 @@ wordMaster::TrieNode* wordMaster::Trie::AddWord(std::string word, unsigned int i
 			(*LastNode)[word[i]] = NextLetter;
 			std::cout << word[i] << ": New letter address : \t\t\t\t0x" << NextLetter << std::endl;
 			LastNode = NextLetter;
+			LastNode->IncThickness();
 		}
 	}
 
@@ -43,8 +45,26 @@ wordMaster::TrieNode* wordMaster::Trie::AddWord(std::string word, unsigned int i
 	return NULL;
 }
 
-bool wordMaster::Trie::EraseWord(std::string word)
+bool wordMaster::Trie::EraseWord(TrieNode* lastNode)
 {
+	while (lastNode->GetPredecessor() != nullptr) 
+	{
+		char currentFlag = lastNode->GetFlag();
+		TrieNode *tmp = lastNode->GetPredecessor();
+		lastNode->DecThickness();
+
+		std::cout << "Erasing letter : " << lastNode->GetFlag() << std::endl;
+		std::cout << "\tcount of letters : " << lastNode->GetThickness() << std::endl;
+
+		if (lastNode->GetThickness() == 0)
+		{
+			(*tmp)[currentFlag] = nullptr;
+			delete lastNode;
+		}
+
+		lastNode = tmp;
+	}
+
 	return true;
 }
 

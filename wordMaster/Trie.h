@@ -17,8 +17,9 @@ namespace wordMaster
 		~Trie();
 
 		TrieNode*		AddWord(std::string word, unsigned int id);
-		bool			EraseWord(std::string word);
+		bool			EraseWord(TrieNode* lastNode);
 		int				GetWordId(std::string word);
+		TrieNode*		GetWordHandler(std::string word);
 		std::string		GetTranslation(TrieNode* node);
 
 	private:

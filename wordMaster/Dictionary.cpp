@@ -33,6 +33,34 @@ bool wordMaster::Dictionary::AddWord(std::string word, std::string translatedWor
 	return true;
 }
 
+bool wordMaster::Dictionary::RemoveWord(std::string word)
+{
+	int idOriginalDict = this->OriginalWords->GetWordId(word);
+	int idTranslatedDict = this->TranslatedWords->GetWordId(word);
+
+	if (idOriginalDict != WORD_NOT_FOUND)
+	{
+		this->OriginalWords->EraseWord(this->IdHashesUMap[idOriginalDict].first);
+		this->TranslatedWords->EraseWord(this->IdHashesUMap[idOriginalDict].second);
+		this->WordsHashGenerator->FreeHash(idOriginalDict);
+		this->IdHashesUMap.erase(idOriginalDict);
+		std::cout << "Successfully erased word : " << word << std::endl;
+		return true;
+	}
+	else if (idTranslatedDict != WORD_NOT_FOUND)
+	{
+		this->OriginalWords->EraseWord(this->IdHashesUMap[idTranslatedDict].first);
+		this->TranslatedWords->EraseWord(this->IdHashesUMap[idTranslatedDict].second);
+		this->WordsHashGenerator->FreeHash(idTranslatedDict);
+		this->IdHashesUMap.erase(idTranslatedDict);
+		std::cout << "Successfully erased word : " << word << std::endl;
+		return true;
+	}
+
+	std::cout << "Nothing to erase..." << std::endl;
+	return false;
+}
+
 std::string wordMaster::Dictionary::GetTranslation(std::string word)
 {
 	int idOriginalDict = this->OriginalWords->GetWordId(word);

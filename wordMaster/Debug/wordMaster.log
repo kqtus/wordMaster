@@ -1,15 +1,6 @@
-﻿  stdafx.cpp
-  wordMaster.cpp
-i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
-  TrieNode.cpp
-  Trie.cpp
+﻿  Trie.cpp
 i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
 i:\developer\wordmaster-git\wordmaster\wordmaster\trie.cpp(18): warning C4018: '<': signed/unsigned mismatch
-i:\developer\wordmaster-git\wordmaster\wordmaster\trie.cpp(54): warning C4018: '<': signed/unsigned mismatch
-  GuidGenerator.cpp
-i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
-  Dictionary.cpp
-i:\developer\wordmaster-git\wordmaster\wordmaster\guidgenerator.h(20): warning C4307: '-': integral constant overflow
-  Generating Code...
+i:\developer\wordmaster-git\wordmaster\wordmaster\trie.cpp(74): warning C4018: '<': signed/unsigned mismatch
   wordMaster.vcxproj -> I:\Developer\wordMaster-git\wordMaster\Debug\wordMaster.exe
   wordMaster.vcxproj -> I:\Developer\wordMaster-git\wordMaster\Debug\wordMaster.pdb (Full PDB)

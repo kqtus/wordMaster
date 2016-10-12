@@ -15,6 +15,7 @@ namespace wordMaster
 		~Dictionary();
 
 		bool				AddWord(std::string word, std::string translatedWord);
+		bool				RemoveWord(std::string word);
 		std::string			GetTranslation(std::string word);
 	private:
 		const static int	WORD_NOT_FOUND = -1;

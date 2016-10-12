@@ -13,7 +13,8 @@ wordMaster::TrieNode::TrieNode()
 		this->PtrArray[i] = NULL;
 	}
 
-	int id = 0;
+	_id = 0;
+	_thickness = 0;
 }
 
 wordMaster::TrieNode::~TrieNode()
@@ -24,6 +25,21 @@ wordMaster::TrieNode::~TrieNode()
 void wordMaster::TrieNode::SetId(int id)
 {
 	this->_id = id;
+}
+
+void wordMaster::TrieNode::IncThickness() 
+{
+	this->_thickness++;
+}
+
+void wordMaster::TrieNode::DecThickness()
+{
+	this->_thickness--;
+}
+
+int wordMaster::TrieNode::GetThickness()
+{
+	return this->_thickness;
 }
 
 int wordMaster::TrieNode::GetId()
